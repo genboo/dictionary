@@ -57,13 +57,9 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-            window.statusBarColor = ContextCompat.getColor(this, R.color.colorBackgroundStatusBar)
+            window.statusBarColor = ContextCompat.getColor(this, R.color.colorPrimary)
         }
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            window.decorView.systemUiVisibility = window.decorView.systemUiVisibility or
-                    View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

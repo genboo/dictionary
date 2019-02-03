@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/colorBackgroundStatusBar"
+        android:background="@color/colorPrimary"
         android:theme="@style/AppTheme.Main.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:title="" />
