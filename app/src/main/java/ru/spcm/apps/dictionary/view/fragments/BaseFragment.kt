@@ -106,7 +106,7 @@ abstract class BaseFragment : Fragment() {
     /**
      * Обновление заголовка окна
      */
-    open fun updateTitle(title: String) {
+    private fun updateTitle(title: String) {
         toolbar?.title = title
     }
 
