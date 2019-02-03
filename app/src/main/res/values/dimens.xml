@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="main_space">16dp</dimen>
+    <dimen name="half_space">8dp</dimen>
+    <dimen name="low_space">4dp</dimen>
+    <dimen name="category_indicator_size">8dp</dimen>
+    <dimen name="menu_text_size">10sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="bottom_menu_height_offset">56dp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="font_family_medium" translatable="false">sans-serif-medium</string>
+    <string name="font_family_black" translatable="false">sans-serif-black</string>
+    <string name="font_family_light" translatable="false">sans-serif-light</string>
+    <string name="font_family_normal" translatable="false">sans-serif-normal</string>
+
+    <string name="app_name">Dictionary</string>
+
+    <string name="screen_main">Главная</string>
+
+    <string name="action_cancel">Отменить</string>
+
+
+    <string name="menu_main">Главная</string>
+    <string name="menu_search">Поиск</string>
+</resources>
